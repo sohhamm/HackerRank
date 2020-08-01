@@ -1,7 +1,6 @@
 #include <bits/stdc++.h> 
 using namespace std;
 
-
 vector<int> parseInts(string str) {
 	// Complete this function
     stringstream ss(str);
@@ -13,9 +12,6 @@ vector<int> parseInts(string str) {
         v.push_back(number);
         
     }while(ss>>c);
-    
-    
-        
     return v; 
 }
 
@@ -26,6 +22,5 @@ int main() {
     for(int i = 0; i < integers.size(); i++) {
         cout << integers[i] << "\n";
     }
-    
     return 0;
 }
